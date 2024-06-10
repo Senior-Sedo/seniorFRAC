@@ -1,0 +1,38 @@
+{
+  "name": "@ssts/frac",
+  "description": "Get a random fractional/decimal number within a range, between two numbers min and max.",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/Senior-Sedo",
+  "repository": {
+    "url": "https://github.com/Senior-Sedo/seniorFRAC"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "random",
+    "fraction",
+    "fractional",
+    "decimal",
+    "number",
+    "random-number",
+    "random-fraction",
+    "random-fractional",
+    "random-decimal-number",
+    "random-fractional-number",
+    "random-decimal"
+  ],
+  "author": "Senior Sedo",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
