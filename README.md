@@ -12,7 +12,7 @@ import seniorFRAC from "@ssts/frac";
 ```
 ## Use
 ```ts
-const num: number = seniorFRAC(-10, 10);
+const randomDecimal: number = seniorFRAC(-10, 10);
 ```
 
 ## Arguments
@@ -58,7 +58,7 @@ ___
 >   Made With Chocolate By Senior Sedo 😎
 >>  Be Chocolateful 💙😍
 >>
->>  **ssts** stands for senior-sedo-typescript 💙
+>>  **ssts** stands for **s**enior-**s**edo-**t**ype**s**cript 💙
 >>
 >>  So instead of ~~@senior-sedo-typescript/rand-frac~~
 >>> `@ssts/frac` for simplicity sake 😍

@@ -27,7 +27,9 @@
     "random-fractional",
     "random-decimal-number",
     "random-fractional-number",
-    "random-decimal"
+    "random-decimal",
+    "decimal-number",
+    "fractional-number"
   ],
   "author": "Senior Sedo",
   "license": "MIT",
