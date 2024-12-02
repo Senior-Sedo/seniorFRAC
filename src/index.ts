@@ -26,15 +26,12 @@ const seniorFRAC = (min: number, max: number, fractionDigits: number = 3): numbe
 
 declare global {
   interface Window {
-    ssts: {
-      seniorFRAC?: typeof seniorFRAC;
-    };
+    ssts: any;
   }
 }
-
-if (window != undefined) {
-  window.ssts = {};
+if (typeof window !== "undefined") {
+  if (typeof window.ssts !== "object") window.ssts = {};
   window.ssts.seniorFRAC = seniorFRAC;
-}
+};
 
 export default seniorFRAC;
